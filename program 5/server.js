@@ -35,6 +35,6 @@ app.get('/logout',
 app.listen(3000,
 	() => {
 		console.log(
-			'Our express server is up on port 3000'
+			`Our express server is up on port 3000`
 		);
 	});
