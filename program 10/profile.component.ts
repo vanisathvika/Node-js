@@ -12,10 +12,6 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileComponent implements OnInit {
   user:any;
   constructor(private http: HttpClient) {}
-    
-
-    
-
     ngOnInit(): void {
       this.http.get('https://jsonplaceholder.typicode.com/users/1').subscribe((data: any) => {
         console.log(data);
